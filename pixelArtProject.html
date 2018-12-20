@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>PIXEL ART</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&effect=destruction" rel="stylesheet">
+        <link rel="stylesheet" href="pixelArtProject.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="html2canvas.js"></script>
+        <script src="pixelArtProject.js"></script>
+    </head>
+    <body>
+        <div id="top-menu">
+            <img src="1.jpg">
+            <a href="account_info.html">ACCOUNT</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="my_sketches.html">SKETCHES</a>
+            <input type="search" spellcheck="false" placeholder="Search..." title="Search for friends or their skecthes" id="search">
+        </div>
+        <div id="circle">
+            <p>P</p>
+        </div>
+        <div class="anim-cont" id="slide-cont">
+                <p class="anim font-effect-destruction" id="I1">ART</p>
+                <p class="anim font-effect-destruction" id="I2">STROKE</p>
+                <p class="anim font-effect-destruction" id="I3">BRUSH</p>
+                <p class="anim font-effect-destruction" id="I4">GRADIENT</p>
+                <p class="anim font-effect-destruction" ID="I5">BURN</p>
+        </div>
+        <div id="layer">
+        </div>
+        <div id="canvas-cont">
+            <table id="canvas">
+
+            </table>
+        </div>
+        <div id="main-cont">
+            <div class="main">
+                <div id="main-new" class="main-disp">
+                    <p id="pot" title="Create a 50x50 sketch">POTRAIT</p>
+                    <p id="lands" title="Create a 50x120 sketch">LANDSCAPE</p>
+                    <p id="cust" title="Create a custom sketch">CUSTOM</p>
+                </div>
+                <div id="main-cust" class="main-disp">
+                    <input type="number" spellcheck="false" placeholder="Height(Max 50U)" required id="height">
+                    <input type="number" spellcheck="false" placeholder="Width(Max 120U)" required id="width">
+                    <button id="create" class="pop-buttons">CREATE</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu" id="menu-left">
+            <div title="Create New Canvas" id="new"><p>NEW CANVAS</p></div>
+            <div title="Save to your sketches" id="sketch"><p>SKETCH IT</p></div>
+            <div title="Save to local storage" id="download"><p>DOWNLOAD</p></div>
+            <div title="Import any sketch to edit"><p>IMPORT</p></div>
+            <div title="Produce your pixel art" id="prod"><p>PRODUCE</p></div>
+            <div title="Insert a new layer"><p>LAYER</p></div>
+            <div title="Export your sketch"><p>EXPORT</p></div>
+            <div title="Details about your sketch"><p>INFO</p></div>
+            <div title="print your sketch"><p>PRINT</p></div>
+            <div title="Share the sketch with your friends"><p>SHARE</p></div>
+            <sup id="tmark">TM</sup>
+            <img src="favicon.ico" id="icon">
+            <sub>AIC©2018</sub>
+        </div>
+        <div class="menu" id="menu-right">
+            <input type="color" id="color">
+            <p title="Color the pixels">COLOR</p>
+            <p title="Step Backward">UNDO</p>
+            <p title="Step Forward">REDO</p>
+            <p title="Add rows">+ROWS</p>
+            <p title="Add columns">+COLS</p>
+            <p title="Select multiple pixels">SELECT</p>
+            <p title="Erase a colored pixel" id="erase">ERASE</p>
+            <p title-"Drag selected pixels">DRAG</p>
+            <p title="Cuts selected pixels">CUT</p>
+            <p title="Copy selected pixels">COPY</p>
+            <p title="Paste selected pixels">PASTE</p>
+            <p title-"Zoom into canvas" id="zoom-in">ZOOM IN</p>
+            <p title-"Zoom outta canvas" id="zoom-out">ZOOM OUT</p>
+            <p title="Insert text into the canvas">TEXT</p>
+            <p title="Insert shapes into the canvas">SHAPES</p>
+            <p title="Rotate canvas">ROTATE</p>
+        </div>
+        <div class="slide" id="slide-left">
+        </div>
+        <img src="6.png" class="slide-img" id="slide-img-left">
+        <div class="slide" id="slide-right">
+        </div>
+        <img src="6.png" class="slide-img" id="slide-img-right">
+        <div id="snapshot">
+            
+        </div>
+        <div id="pop-up">
+            <p id="pop-text"></p>
+        </div>
+        <div id="bottom-menu">
+            <p>LOG OUT</p>
+            <p>ABOUT US</p>
+            <p>CONTACT US</p>
+            <p>PRIVACY POLICY</p>
+            <img id="daVinci" src="pa.jpg" title="Ask da-vinci!">
+            <div> 
+                <img src="4.png">
+                <img src="5.png">
+                <img src="7.png">
+                <img src="snap.png">
+            </div>
+        </div>
+        </body>
+</html>
